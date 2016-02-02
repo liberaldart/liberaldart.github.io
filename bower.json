@@ -1,0 +1,33 @@
+{
+  "name": "liberaldart.github.io",
+  "homepage": "https://github.com/liberaldart/liberaldart.github.io",
+  "authors": [
+    "aksinghdce <aksinghdce@gmail.com>"
+  ],
+  "description": "\"A website for liberaldart.com on github\"",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "liberaldart",
+    "needrepreneur",
+    "dronacharya",
+    "model",
+    "collaborative",
+    "learning",
+    "software",
+    "assisted",
+    "collaborative",
+    "learning"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
