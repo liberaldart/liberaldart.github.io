@@ -7,14 +7,15 @@
        content must come *after* these tags -->
 
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
   <style>
     #liberaldart-background {
-        background-image: url("https://github.com/liberaldart/liberaldart.github.io/blob/master/background/colors2.jpg");
-        background-position: -9px -7px;
+        background-image: url("https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/background/colors2.jpg");
         background-repeat: no-repeat;
-        background-size: 39px 43px;
-        padding-left: 41px;
-        color: #000;
+    }
+
+    #carousel-content {
+        height: 200px;
     }
   </style>
 </head>
@@ -22,16 +23,55 @@
 <body>
 
 <div class="container-fluid">
-  <div style="background-color:transparent !important" class="jumbotron">
+  <div id="liberaldart-background" style="background-color:transparent !important" class="jumbotron">
     <h1 class="text-center">Vision blogs  
     </h1>
   </div>
-  <div>
-    <a id="liberaldart-background"  href="#" role="button" class="btn btn-default btn-block">
-      <h1><span class="text-primary ">LiberalDart</span></h1>
-      </a>
-      
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="1"></li>
+    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="2"></li>
+    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="3"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div id="carousel-content" class="carousel-inner" role="listbox">
+    <div class="item active">
+      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/Beyond-the-search-for-Right-school-Right-college-Right-university" role="button"> Read </a>
+      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/1.png" alt="Chania">
+    </div>
+
+    <div class="item">
+      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/Stories-build-imagination-Imagination-builds-curiosity" role="button"> Read </a>
+      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/2.png" alt="Chania">
+    </div>
+
+    <div class="item">
+      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/A-close-friend-1" role="button"> Read </a>
+      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/3.png" alt="Flower">
+    </div>
+
+    <div class="item">
+      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/My-take-on-Education" role="button"> Read </a>
+      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/4.png" alt="Flower">
+    </div>
   </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
   
 </div>
 
@@ -39,6 +79,18 @@
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <!-- Angular will be used to provide single page application feature  -->
   <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        $(" .item > a ").on(" load mouseenter ", function() {
+            $( this ).addClass("animated bounceIn");
+        });
+
+        $(" .item > a ").on(" mouseleave ", function() {
+            $( this ).removeClass("animated bounceIn");
+        });
+
+    });
+  </script>
 
 
 </body>
