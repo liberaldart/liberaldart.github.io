@@ -1,0 +1,26 @@
+{
+  "name": "liberaldart.github.io",
+  "version": "1.0.0",
+  "description": "Test driven development for LiberalDart website using node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R tap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liberaldart/liberaldart.github.io.git"
+  },
+  "keywords": [
+    "liberaldart",
+    "freecodecamp",
+    "javascript",
+    "fullstack",
+    "development"
+  ],
+  "author": "Amit kumar singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liberaldart/liberaldart.github.io/issues"
+  },
+  "homepage": "https://github.com/liberaldart/liberaldart.github.io#readme"
+}
