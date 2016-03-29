@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/liberaldart/liberaldart.github.io/issues"
   },
-  "homepage": "https://github.com/liberaldart/liberaldart.github.io#readme"
+  "homepage": "https://github.com/liberaldart/liberaldart.github.io#readme",
+  "dependencies": {
+    "express": "4.13.4"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "2.4.5",
+    "superagent": "1.8.3"
+  }
 }
