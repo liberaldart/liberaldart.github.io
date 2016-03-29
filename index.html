@@ -1,114 +1,111 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- The above 3 meta tags *must* come first in the head; any other head
-       content must come *after* these tags -->
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>LiberalDart</title>
 
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css">
-  <style>
-    #liberaldart-background {
-        background-image: url("https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/background/colors2.jpg");
-        background-repeat: no-repeat;
-    }
 
-    #carousel-content {
-        height: 200px;
-    }
-  </style>
-</head>
 
-<body>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css'>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+
+  <body>
+
+    <h1>
+  <p class="text-center">
+    Hello <span class="bg-primary">
+    Teacher
+    </span>
+  </p>
+</h1>
+
 
 <div class="container-fluid">
-  <div style="background-color:transparent !important" class="jumbotron">
-    <h1 class="text-center">Vision blogs
-    </h1>
-    <div>
-        <a href="https://gitter.im/liberaldart/liberaldart.github.io?utm_source=share-link&utm_medium=link&utm_campaign=share-link" role="button"
-        class="btn btn-primary"> Group Chat </a>
+  <div class="row">
+      <div style="margin-bottom:300px">
+        <p class="lead"><h1 class="text-center text-success">I am a teacher, can I learn to teach better?</h1></p>
+      </div>
+    <div class="col-lg-12">
+
+
+      <button class="btn btn-primary btn-block" data-toggle="modal" data-target="#whyModal">Why do I need that?</button>
+      <button class="btn btn-default btn-block" data-toggle="modal" data-target="#howModal">How  we do this?</button>
+
+    </div>
+  <div class="col-lg-12">
+    <!-- Modal -->
+
+    <div id="whyModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <blockquote>
+              <p>“Education...is painful,
+                continual and difficult work to be done in kindness,
+                by watching, by warning,...  by praise,
+                but above all -- by example.”
+              </p>
+              <footer>John Ruskin</footer>
+            </blockquote>
+          </div>
+
+          <div class="modal-body">
+            <img src='http://cdn.narendramodi.in/cmsuploads/0.04845800_1432403974_towards-a-bright-future5.jpg'
+            alt='students and modi'>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">Lets make education better</button>
+          </div> <!--modal-footer-->
+        </div><!-- model-content -->
+      </div>
     </div>
   </div>
 
-<div>
-  <h1>LiberalDart subscribes to FreeCodeCamp</h1>
-  <h1>We work on non-profit software projects in India</h1>
-  <h1>Anyone can join FreeCodeCamp in order to join us</h1>
-  <h1><a role="button" href="mailto:liberaldart@gmail.com" class="btn btn-primary fa">Contact Us</a></h1>
-  <audio controls>
-    <source src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/audio/liberaldart_to_freecodecamp.mp3" type="audio/ogg">
-    </audio>
-    <source src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/audio/liberaldart_to_freecodecamp.mp3" type="audio/mpeg">
-    </audio>
-</div>
+  <div class="col-lg-12">
+    <!-- Modal -->
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="1"></li>
-    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="2"></li>
-    <li style="background-color:black !important" data-target="#myCarousel" data-slide-to="3"></li>
-  </ol>
+    <div id="howModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title">Inspire learning by doing!</h4>
+          </div>
 
-  <!-- Wrapper for slides -->
-  <div id="carousel-content" class="carousel-inner" role="listbox">
-    <div class="item active">
-      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/Beyond-the-search-for-Right-school-Right-college-Right-university" role="button"> Read </a>
-      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/1.png" alt="Chania">
-    </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12">
+                <img src='http://screenrant.com/wp-content/uploads/miles-teller-jk-simmons-whiplash.jpg' alt='whip-lash movie scene'>
+              </div>
+            </div>
+          </div>
 
-    <div class="item">
-      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/Stories-build-imagination-Imagination-builds-curiosity" role="button"> Read </a>
-      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/2.png" alt="Chania">
-    </div>
-
-    <div class="item">
-      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/A-close-friend-1" role="button"> Read </a>
-      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/3.png" alt="Flower">
-    </div>
-
-    <div class="item">
-      <a class="btn text-primary btn-default btn-block" href="https://liberaldart.quora.com/My-take-on-Education" role="button"> Read </a>
-      <img class="img-responsive center-block" src="https://raw.githubusercontent.com/liberaldart/liberaldart.github.io/master/quora/4.png" alt="Flower">
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-block" data-dismiss="modal">What next?</button>
+          </div> <!--modal-footer-->
+        </div><!-- model-content -->
+      </div>
     </div>
   </div>
 
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-
 
 </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <!-- Angular will be used to provide single page application feature  -->
-  <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
-  <script>
-    $(document).ready(function() {
-        $(" .item > a ").on(" load mouseenter ", function() {
-            $( this ).addClass("animated bounceIn");
-        });
-
-        $(" .item > a ").on(" mouseleave ", function() {
-            $( this ).removeClass("animated bounceIn");
-        });
-
-    });
-  </script>
 
 
-</body>
 
 
+  </body>
 </html>
