@@ -1,0 +1,25 @@
+{
+  "name": "liberaldart.github.io",
+  "version": "1.0.0",
+  "description": "A website where potential contributers at github.com can showcase their projects and mentor junior developers learn to contribute better",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liberaldart/liberaldart.github.io.git"
+  },
+  "keywords": [
+    "engineered",
+    "mentored"
+  ],
+  "author": "Anonymous (liberaldart@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liberaldart/liberaldart.github.io/issues"
+  },
+  "homepage": "https://github.com/liberaldart/liberaldart.github.io#readme",
+  "dependencies": {
+  }
+}

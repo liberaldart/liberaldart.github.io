@@ -1,0 +1,28 @@
+{
+  "name": "react-static-site",
+  "version": "1.0.0",
+  "description": "A static react website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "a",
+    "static",
+    "react",
+    "website",
+    "for",
+    "demonstration",
+    "purposes"
+  ],
+  "author": "liberaldart (liberaldart@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "jsx-loader": "^0.13.2",
+    "react": "^15.3.2",
+    "react-router": "^3.0.0",
+    "static-site-generator-webpack-plugin": "^3.1.0",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
