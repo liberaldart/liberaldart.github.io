@@ -15,16 +15,19 @@ class App extends React.Component {
     return (
       <MuiThemeProvider muiTheme={getMuiTheme()}>
         <div>
-          Hello This is my first appplication
+          {this.props.children}
         </div>
       </MuiThemeProvider>
     );
   }
 }
 
+import Home from './components/Home'
+
 render((
   <Router history={browserHistory}>
     <Route path='/' component={App}>
+      <Route path='/home' component={Home}/>
     </Route>
   </Router>
 ), document.getElementById('root'))

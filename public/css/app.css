@@ -1,4 +1,24 @@
 body {
   font-family: Roboto,sans-serif;
   font-size: 16px;
+  margin: 0;
+}
+.home-component .body {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.home-component .background-text {
+  font-size: 23px;
+  color: rgba(19, 19, 19, 0.85);
+}
+.home-component a {
+  color: #4078c0;
+  text-decoration: none;
+}
+.home-component a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
