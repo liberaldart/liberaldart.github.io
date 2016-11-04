@@ -13,29 +13,31 @@ Project 1:
 Collaboration through Coursera.Org
   The launch project commences with the following course:
   
-  Course website: www.coursera.org
+  Course website: [Coursera.Org](www.coursera.org)
   Poll Entries:
   Category: Science of Art:
-    https://www.coursera.org/learn/science-of-meditation
+    [Science of Meditation](https://www.coursera.org/learn/science-of-meditation)
     
   Management of Art:
-    https://www.coursera.org/specializations/social-entrepreneurship-cbs
+    [Social Entrepreneurship](https://www.coursera.org/specializations/social-entrepreneurship-cbs)
   Art:
-    https://www.coursera.org/learn/english-composition
-    https://www.coursera.org/learn/business-english-presentations
-    https://www.coursera.org/learn/modern-art-ideas
-    https://www.coursera.org/learn/getting-started-with-essay-writing
-    https://www.coursera.org/learn/craft-of-plot
-    https://www.coursera.org/learn/infographic-design
-    https://www.coursera.org/learn/songwriting-lyrics
-    https://www.coursera.org/learn/craft-of-character
-    https://www.coursera.org/learn/ideas
-    https://www.coursera.org/learn/introduction-to-research-for-essay-writing
-    https://www.coursera.org/learn/script-writing
-    https://www.coursera.org/learn/craft-of-setting-and-description
-    https://www.coursera.org/learn/historical-fiction
-    https://www.coursera.org/learn/the-beatles
-    https://www.coursera.org/learn/music-life
+    [English Composition](https://www.coursera.org/learn/english-composition)
+    [Business English Presentations](https://www.coursera.org/learn/business-english-presentations)
+    [Modern Art Ideas](https://www.coursera.org/learn/modern-art-ideas)
+    [Essay Writing](https://www.coursera.org/learn/getting-started-with-essay-writing)
+    [Creative Writing](https://www.coursera.org/learn/craft-of-plot)
+    [InfoGraphic Design](https://www.coursera.org/learn/infographic-design)
+    [Song Writing](https://www.coursera.org/learn/songwriting-lyrics)
+    [Creative Writing 2](https://www.coursera.org/learn/craft-of-character)
+    [Ideas](https://www.coursera.org/learn/ideas)
+    [Writing Research](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)
+    [Script Writing](https://www.coursera.org/learn/script-writing)
+    [Creating Writing 3](https://www.coursera.org/learn/craft-of-setting-and-description)
+    [Historical Fiction](https://www.coursera.org/learn/historical-fiction)
+    [The Beatles Music](https://www.coursera.org/learn/the-beatles)
+    [Music in Life](https://www.coursera.org/learn/music-life)
+    
+    
   {
   Example Course: https://www.coursera.org/learn/probabilistic-graphical-models/home/welcome
     Assumption: We had a poll and we picked a course depending upon the demographics
