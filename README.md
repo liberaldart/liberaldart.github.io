@@ -15,7 +15,10 @@ Collaboration through Coursera.Org
   
   Course website: [Coursera.Org](www.coursera.org)
   Poll Entries:
-  Category: Science of Art:
+  
+  Category: Courses 
+  
+  Science of Art:
     [Science of Meditation](https://www.coursera.org/learn/science-of-meditation)
     
   Management of Art:
