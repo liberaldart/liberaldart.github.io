@@ -20,22 +20,38 @@ Collaboration through Coursera.Org
     
   Management of Art:
     [Social Entrepreneurship](https://www.coursera.org/specializations/social-entrepreneurship-cbs)
+    
   Art:
     [English Composition](https://www.coursera.org/learn/english-composition)
+    
     [Business English Presentations](https://www.coursera.org/learn/business-english-presentations)
+    
     [Modern Art Ideas](https://www.coursera.org/learn/modern-art-ideas)
+    
     [Essay Writing](https://www.coursera.org/learn/getting-started-with-essay-writing)
+    
     [Creative Writing](https://www.coursera.org/learn/craft-of-plot)
+    
     [InfoGraphic Design](https://www.coursera.org/learn/infographic-design)
+    
     [Song Writing](https://www.coursera.org/learn/songwriting-lyrics)
+    
     [Creative Writing 2](https://www.coursera.org/learn/craft-of-character)
+    
     [Ideas](https://www.coursera.org/learn/ideas)
+    
     [Writing Research](https://www.coursera.org/learn/introduction-to-research-for-essay-writing)
+    
     [Script Writing](https://www.coursera.org/learn/script-writing)
+    
     [Creating Writing 3](https://www.coursera.org/learn/craft-of-setting-and-description)
+    
     [Historical Fiction](https://www.coursera.org/learn/historical-fiction)
+    
     [The Beatles Music](https://www.coursera.org/learn/the-beatles)
+    
     [Music in Life](https://www.coursera.org/learn/music-life)
+    
     
     
   {
