@@ -37,4 +37,4 @@ Collaboration through Coursera.Org
 Vision:
   Based on the real collaboration in these projects, the model will be developed into a web-application.
   
-![The Big Picture][]
+![The Big Picture][liberaldart.github.io/Big_Picture.png]
