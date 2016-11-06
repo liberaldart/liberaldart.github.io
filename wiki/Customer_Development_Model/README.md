@@ -4,3 +4,5 @@ Answer:	My customers are the business owners and business financers who have mon
 
 FAQ: What is the model you are considering for your software managed process?
 Answer: I am considering the model described in the book "The four steps to the Epiphany"; The Customer Development Model.
+
+![Customer Development Model](https://github.com/liberaldart/liberaldart.github.io/blob/customer_development_model/wiki/Customer_Development_Model/To_Export_Temp_images.png)
